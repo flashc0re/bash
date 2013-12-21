@@ -3,6 +3,7 @@
 # Simple script to find shells
 # Usage: shkiller.sh "DIR TO CHECK"
 
+
 dir="$1"
 echo -e "\e[01;32mMethod #1 90% Rate (encoded)\e[00m"
 grep -r eval.*base64 $dir >> shkiller.log 
