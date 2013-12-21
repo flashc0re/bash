@@ -1,6 +1,6 @@
 #!/bin/bash
 # Shell killer 0.1 by flash0re
-# Simple script to check for web shells
+# Simple script to find shells
 # Usage: shkiller.sh "DIR TO CHECK"
 
 dir="$1"
