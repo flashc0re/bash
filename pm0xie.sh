@@ -1,5 +1,5 @@
 #!/bin/bash
-#very very raw and brute ;)
+#very very raw and brute :)
  choice=4
  echo "Proxy m0xie v 0.2"
  echo "1) Download proxy to file http-proxy"
