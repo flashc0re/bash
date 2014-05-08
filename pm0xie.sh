@@ -14,7 +14,7 @@ if [ $choice -eq 1 ] ; then
     echo -e "Take proxies from page: \c "
     read  page
     echo "DOWNLOADING FRESH PROXIES"
-    wget "https://nordvpn.com/free-proxy-list/$page/?allc=all&allp=all&port&sp[0]=1&protocol[0]=HTTP&protocol[1]=HTTPS&ano[0]=High&sortby=0&way=0&pp=3" -O httplist
+    wget "https://nordvpn.com/free-proxy-list/$page/?allc=all&allp=all&port&sp[0]=1&protocol[0]=HTTP&protocol[1]=HTTPS&ano[0]=High&sortby=0&way=0&pp=3" -O httplist --quiet
     echo "REMOVING OLD"
     rm http-proxy
     echo "Cleaning"
